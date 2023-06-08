@@ -6,7 +6,7 @@ Table of Contents
 •	Installation
 •	Usage
 •	Contributing
-•	License
+
 Introduction
 The Amsozzer web application is designed to provide a platform for users to explore various images. The website has a clean and minimalistic design, allowing visitors to focus on the visual content.
 Features
