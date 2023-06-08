@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="Index.css">
+
+</head>
+<body>
+<div id = 'main'>
+    <header>
+        <h1>Welcome to Amsozzer's Domb</h1>
+    </header>
+
+    <nav>
+        <ul >
+            <li><a class = 'List' href="Index.html">Home</a></li>
+            <li><a class = 'List' href="about.html">About Me</a></li>
+            <li><a class = 'List' href="skills.html">Skills</a></li>
+            <li><a class = 'List' href="projects.html">Projects</a></li>
+            <li><a class = 'List' href="resume.html">Resume</a></li>
+
+            <li><a class = 'List' href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <img id = 'Me'src="https://media.licdn.com/dms/image/C5603AQHGSuP6AwTDkg/profile-displayphoto-shrink_800_800/0/1668055956618?e=1691625600&v=beta&t=5AEjRYGSP3F4L440mqTIaMJHOa67UrbSAzxq8EMBjGk">
+
+            <h2>About Me</h2>
+            <p class = 'AboutMe'>Pronouns(He/Him/Dead)<br>
+                Just a weirdo who loves coffee<br>
+                Software Engineering at <a href = 'https://grainger.illinois.edu/' >University of Urbana Champaign</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p class = 'AboutMe'>&copy; 2023 My Personal Website. All rights reserved.</p>
+    </footer>
+</div>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.22.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyDVOsUgKVHL4pXHWLSlOAaW9jytNORXNHY",
+        authDomain: "selfieappproj.firebaseapp.com",
+        projectId: "selfieappproj",
+        storageBucket: "selfieappproj.appspot.com",
+        messagingSenderId: "400006498491",
+        appId: "1:400006498491:web:c9037c02f8c36f6668819e",
+        measurementId: "G-QXQYHMDH0Z"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
+</html>
