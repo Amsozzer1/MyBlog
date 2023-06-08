@@ -77,15 +77,68 @@ section {
     margin-bottom: 20px;
 }
 
-.skill {
-    margin-bottom: 10px;
+.resume-item {
+    margin-bottom: 20px;
 }
 
-.skill h3 {
+.resume-item h3 {
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.skill p {
+.resume-item p {
     font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.resume-item span {
+    font-weight: bold;
+}
+
+.resume-item .highlight {
+    color: #337ab7;
+}
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+
+}
+#COPY
+{
+    text-align: center;
+}
+/* Tablets and small desktop screens */
+@media (min-width: 481px) and (max-width: 960px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+
+
+}
+
+/* Larger desktop screens */
+@media (min-width: 961px) {
+    /* No additional modifications needed for larger screens */
 }

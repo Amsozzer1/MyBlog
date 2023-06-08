@@ -10,9 +10,6 @@ body {
     background-color: #f2f2f2;
     color: #333333;
     line-height: 1.5;
-    /*background-image: url("https://removal.ai/wp-content/uploads/2021/05/image1.png");*/
-
-
 }
 
 .container {
@@ -55,10 +52,6 @@ img {
 #main {
     background-color: #ffffff;
     padding: 20px;
-    width: 100%;
-    height: 100%;
-
-    /*background-image: url("https://removal.ai/wp-content/uploads/2021/05/image1.png");*/
 }
 
 header {
@@ -84,14 +77,59 @@ section {
     margin-bottom: 20px;
 }
 
-#Me {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+.project {
+    margin-bottom: 20px;
 }
 
-.AboutMe {
-    font-style: italic;
-    color: #777777;
+.project h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.project p {
+    font-size: 16px;
+}
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+
+}
+
+/* Tablets and small desktop screens */
+@media (min-width: 481px) and (max-width: 960px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+
+
+}
+#COPY
+{
+    text-align: center;
+}
+/* Larger desktop screens */
+@media (min-width: 961px) {
+    /* No additional modifications needed for larger screens */
 }

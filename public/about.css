@@ -2,14 +2,16 @@
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
+
 }
 
 /* Global styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
     color: #333333;
     line-height: 1.5;
+    background-color: #ffffff;
+    padding: 20px;
 }
 
 .container {
@@ -42,18 +44,7 @@ a:hover {
     text-decoration: underline;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
-
 /* Specific styles for elements in your HTML code */
-#main {
-    background-color: #ffffff;
-    padding: 20px;
-}
-
 header {
     text-align: center;
     margin-bottom: 20px;
@@ -72,20 +63,63 @@ nav a {
     padding: 10px;
 }
 
-section {
+main {
     text-align: center;
     margin-bottom: 20px;
 }
 
-.project {
-    margin-bottom: 20px;
+footer {
+    text-align: center;
 }
 
-.project h3 {
-    font-size: 20px;
-    margin-bottom: 5px;
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    #Me {
+        width: 150px;
+        height: 150px;
+    }
 }
 
-.project p {
-    font-size: 16px;
+/* Tablets and small desktop screens */
+@media (min-width: 481px) and (max-width: 960px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+
+    #Me {
+        width: 180px;
+        height: 180px;
+    }
+}
+#COPY
+{
+    text-align: center;
+}
+
+/* Larger desktop screens */
+@media (min-width: 961px) {
+    /* No additional modifications needed for larger screens */
 }

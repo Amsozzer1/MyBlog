@@ -112,3 +112,48 @@ section {
 .contact-form button:hover {
     background-color: #286090;
 }
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+
+}
+
+/* Tablets and small desktop screens */
+@media (min-width: 481px) and (max-width: 960px) {
+    body {
+        padding: 15px;
+    }
+
+    header {
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        justify-content: space-around;
+    }
+
+
+}
+
+/* Larger desktop screens */
+@media (min-width: 961px) {
+    /* No additional modifications needed for larger screens */
+}
+#COPY
+{
+    text-align: center;
+}
